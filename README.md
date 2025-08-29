@@ -93,6 +93,14 @@ Run the script to download the pre-train model
 bash prepare/download_pretrained_models.sh
 ```
 
+Download whisper model
+And move to deps/whisper-large-v2
+
+```
+hf download openai/whisper-large-v2
+mv ~\.cache\huggingface\hub\models--openai--whisper-large-v2\snapshots\... deps\whisper-large-v2
+```
+
 ### 4. (Optional) Download manually
 
 Visit [the Google Driver](https://drive.google.com/drive/folders/10s5HXSFqd6UTOkW2OMNc27KGmMLkVc2L) to download the previous dependencies.
